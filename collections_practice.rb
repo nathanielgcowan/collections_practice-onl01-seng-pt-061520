@@ -34,3 +34,9 @@ def find_a(word)
     word[0]="a"
   end
 end
+
+def sum_array(array)
+  array.inject do|integer|
+  integer
+end
+end
