@@ -30,7 +30,7 @@ end
 end
 
 def find_a(word)
-  array.find do |word|
+  array.find_all do |word|
     word[0]="a"
   end
 end
